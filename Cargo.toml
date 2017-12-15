@@ -1,0 +1,15 @@
+[package]
+authors = [
+	"Marius Scholtz <mc.scholtz@gmail.com>"]
+description = "Register map for STM32F407 microcontrollers"
+keywords = ["arm", "cortex-m", "stm32", "stm32f407"]
+license = "MIT OR Apache-2.0"
+name = "stm32f407"
+repository = ""
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.3.1" #{ git = "https://github.com/japaric/cortex-m" } causes errors
+cortex-m-rt = { git = "https://github.com/japaric/cortex-m-rt" }
+vcell = { git = "https://github.com/japaric/vcell" }
+bare-metal = { git = "https://github.com/japaric/bare-metal" }

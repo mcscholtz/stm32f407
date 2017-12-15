@@ -5,7 +5,7 @@ description = "Register map for STM32F407 microcontrollers"
 keywords = ["arm", "cortex-m", "stm32", "stm32f407"]
 license = "MIT OR Apache-2.0"
 name = "stm32f407"
-repository = ""
+repository = "https://github.com/mcscholtz/stm32f407"
 version = "0.1.0"
 
 [dependencies]

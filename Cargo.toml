@@ -6,7 +6,7 @@ keywords = ["arm", "cortex-m", "stm32", "stm32f407"]
 license = "MIT OR Apache-2.0"
 name = "stm32f407"
 repository = "https://github.com/mcscholtz/stm32f407"
-version = "0.2.0"
+version = "0.1.0"
 
 [dependencies]
 cortex-m = "0.3.1" #{ git = "https://github.com/japaric/cortex-m" } causes errors

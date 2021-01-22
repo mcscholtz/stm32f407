@@ -6,7 +6,7 @@ keywords = ["arm", "cortex-m", "stm32", "stm32f407"]
 license = "MIT OR Apache-2.0"
 name = "stm32f407"
 repository = "https://github.com/mcscholtz/stm32f407"
-version = "0.2.0"
+version = "0.2.1"
 
 [dependencies]
 bare-metal = "1.0.0"

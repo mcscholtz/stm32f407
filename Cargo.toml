@@ -6,10 +6,9 @@ keywords = ["arm", "cortex-m", "stm32", "stm32f407"]
 license = "MIT OR Apache-2.0"
 name = "stm32f407"
 repository = "https://github.com/mcscholtz/stm32f407"
-version = "0.1.0"
+version = "0.2.0"
 
 [dependencies]
-cortex-m = "0.3.1" #{ git = "https://github.com/japaric/cortex-m" } causes errors
-cortex-m-rt = { git = "https://github.com/japaric/cortex-m-rt" }
-vcell = { git = "https://github.com/japaric/vcell" }
-bare-metal = { git = "https://github.com/japaric/bare-metal" }
+bare-metal = "1.0.0"
+cortex-m = "0.7.0"
+vcell = "0.1.3"
